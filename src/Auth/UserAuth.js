@@ -19,6 +19,7 @@ const userAuth = {
        window.localStorage.setItem("USER_NAME", this.user.name);
       } else {
         this.user.name = "";
+        this.user.name = "";
         this.user.isAuthenticated = false;
       }
     },
